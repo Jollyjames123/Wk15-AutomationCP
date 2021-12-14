@@ -6,10 +6,10 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
 
 public class ProductPage extends Utility {
     private static final Logger log = LogManager.getLogger(ProductPage.class.getName());
+
     public ProductPage() {
         PageFactory.initElements(driver, this);
     }
@@ -64,7 +64,7 @@ public class ProductPage extends Utility {
         } else if (product.equalsIgnoreCase("Printed Summer Dress with Price $28.98")) {
             pmClickOnElement(printedSummerDressLink);
         }
-        log.info("Clicking on the product" + product);
+        log.info("Clicking on the product :" + product);
     }
 
     public void changeQty(String qty) {
@@ -79,13 +79,13 @@ public class ProductPage extends Utility {
         } else if (qty.equalsIgnoreCase("2")) {
             pmClickOnElement(printedSummerDressQty);
         }
-        log.info("Entering the quatity " + qty);
+        log.info("Entering the quatity :" + qty);
     }
 
-    public void selectSize(String size)  {
+    public void selectSize(String size) {
         if (size.equalsIgnoreCase("M")) {
             pmSelectByVisibleTextFromDropDown(blouseSize, "M");
-            } else if (size.equalsIgnoreCase("L")) {
+        } else if (size.equalsIgnoreCase("L")) {
             //pmClickOnElement(printedDressSize);
             pmSelectByVisibleTextFromDropDown(printedDressSize, "L");
             //Thread.sleep(2000);
@@ -97,7 +97,7 @@ public class ProductPage extends Utility {
             pmSelectByVisibleTextFromDropDown(printedSummerDressSize, "M");
             //Thread.sleep(2000);
         }
-        log.info("Selecting the size " + size);
+        log.info("Selecting the size :" + size);
     }
 
     public void selectColour(String colour) {
@@ -110,13 +110,13 @@ public class ProductPage extends Utility {
         } else if (colour.equalsIgnoreCase("Blue")) {
             pmClickOnElement(printedSummerDressColour);
         }
-        log.info("Selecting the colour " + colour);
+        log.info("Selecting the colour :" + colour);
     }
 
     public void addToCart() throws InterruptedException {
         pmClickOnElement(addToCartButton);
         Thread.sleep(3500);
-        log.info("Adding to cart" + addToCartButton.toString());
+        log.info("Adding to cart :" + addToCartButton.toString());
     }
 
     public void addingToTheCartSuccessfully(String product, String qty, String size, String colour) throws InterruptedException {
@@ -136,12 +136,12 @@ public class ProductPage extends Utility {
         //Reporter.log("Verifying the popup Message" + popUpMessageTextLink.toString() + "<br>");
         pmVerifyElements(popUpMessageTextLink, "Product successfully added to your shopping cart", "Page is not correctly displayed");
         Thread.sleep(3500);
-        log.info("Verifying the popup Message" + popUpMessageTextLink.toString());
+        log.info("Verifying the popup Message :" + popUpMessageTextLink.toString());
     }
 
     public void closeThePopUpMessage() {
-        Reporter.log("Closing the popup message" + popUpCloseButtonLink.toString() + "<br>");
+        //Reporter.log("Closing the popup message" + popUpCloseButtonLink.toString() + "<br>");
         pmClickOnElement(popUpCloseButtonLink);
-        log.info("Closing the popup message" + popUpCloseButtonLink.toString());
+        log.info("Closing the popup message :" + popUpCloseButtonLink.toString());
     }
 }

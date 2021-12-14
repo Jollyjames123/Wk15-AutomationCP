@@ -44,38 +44,37 @@ public class CreateAccountPage extends Utility {
     public void fillMandetoryFields() {
 
         pmSendTextToElement(firstNameLink, "James");
-        log.info("Entering firstname" + firstNameLink.toString());
+        log.info("Entering firstname :" + firstNameLink.toString());
 
         pmSendTextToElement(lastNameLink, "Bond");
-        log.info("Entering lastname " + lastNameLink.toString());
+        log.info("Entering lastname :" + lastNameLink.toString());
 
         pmSendTextToElement(passwordLink, "Prime123");
-        log.info("Entering password " + passwordLink.toString());
+        log.info("Entering password :" + passwordLink.toString());
 
         pmSendTextToElement(addressLink, "999 Prime Road");
-        log.info("Entering address" + addressLink.toString());
+        log.info("Entering address :" + addressLink.toString());
 
         pmSendTextToElement(cityLink, "London");
-        log.info("Entering city name " + cityLink.toString());
+        log.info("Entering city name :" + cityLink.toString());
 
         pmSelectByVisibleTextFromDropDown(stateLink, "Florida");
-        log.info("Selecting the state" + stateLink.toString());
+        log.info("Selecting the state :" + stateLink.toString());
 
         pmSendTextToElement(zipPostalLink, "12345");
-        log.info("Entering postalcode" + zipPostalLink.toString());
+        log.info("Entering postalcode :" + zipPostalLink.toString());
 
         pmSendTextToElement(mobilePhoneLink, "01234567891");
-        log.info("Entering contact number" + mobilePhoneLink.toString());
+        log.info("Entering contact number :" + mobilePhoneLink.toString());
     }
 
     public void clickOnRegister() {
-
         pmClickOnElement(registerLink);
-        log.info("Clicking on register link" + registerLink.toString());
+        log.info("Clicking on register link :" + registerLink.toString());
     }
-    public void verifyMyAccountText(){
 
-        pmVerifyElements(myAccountTextLink,"MY ACCOUNT", "Message is not displayed correctly" );
-        log.info("Verifying the message" + myAccountTextLink.toString());
+    public void verifyMyAccountText() {
+        pmVerifyElements(myAccountTextLink, "MY ACCOUNT", "Message is not displayed correctly");
+        log.info("Verifying the message :" + myAccountTextLink.toString());
     }
 }

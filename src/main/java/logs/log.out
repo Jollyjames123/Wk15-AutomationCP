@@ -204,3 +204,49 @@
 2021-12-14 23:12:878 INFO  ProductPage :119 - Adding to cart[[ChromeDriver: chrome on WINDOWS (989727f9269dd6339071035fb857f78b)] -> xpath: //span[normalize-space()='Add to cart']]
 2021-12-14 23:12:415 INFO  ProductPage :139 - Verifying the popup Message[[ChromeDriver: chrome on WINDOWS (989727f9269dd6339071035fb857f78b)] -> xpath: (//h2[normalize-space()='Product successfully added to your shopping cart'])[1]]
 2021-12-14 23:12:508 INFO  ProductPage :145 - Closing the popup message[[ChromeDriver: chrome on WINDOWS (989727f9269dd6339071035fb857f78b)] -> xpath: //span[@title='Close window']]
+2021-12-14 23:12:947 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-14 23:12:750 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (bf29ea426219f68b70acb134e00ed960)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-14 23:12:891 INFO  SignInPage :56 - Entering username :
+2021-12-14 23:12:891 INFO  SignInPage :88 - Entering username 
+2021-12-14 23:12:996 INFO  SignInPage :62 - Entering the password :123456
+2021-12-14 23:12:996 INFO  SignInPage :90 - Entering the password 123456
+2021-12-14 23:12:04 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (bf29ea426219f68b70acb134e00ed960)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:20 INFO  SignInPage :92 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (bf29ea426219f68b70acb134e00ed960)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:242 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (bf29ea426219f68b70acb134e00ed960)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:251 INFO  SignInPage :83 - Verifing the error message :null
+2021-12-14 23:12:128 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-14 23:12:792 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (1a90c26a1f423310fb993e6176cd321d)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-14 23:12:924 INFO  SignInPage :56 - Entering username :abcd@gmail.com
+2021-12-14 23:12:924 INFO  SignInPage :88 - Entering username abcd@gmail.com
+2021-12-14 23:12:04 INFO  SignInPage :62 - Entering the password :
+2021-12-14 23:12:04 INFO  SignInPage :90 - Entering the password 
+2021-12-14 23:12:465 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (1a90c26a1f423310fb993e6176cd321d)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:477 INFO  SignInPage :92 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (1a90c26a1f423310fb993e6176cd321d)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:458 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (1a90c26a1f423310fb993e6176cd321d)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:467 INFO  SignInPage :83 - Verifing the error message :null
+2021-12-14 23:12:466 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-14 23:12:21 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (1f3895b2e02bb183b294fd01a4d758de)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-14 23:12:127 INFO  SignInPage :56 - Entering username :adfdfgfg
+2021-12-14 23:12:127 INFO  SignInPage :88 - Entering username adfdfgfg
+2021-12-14 23:12:224 INFO  SignInPage :62 - Entering the password :123456
+2021-12-14 23:12:224 INFO  SignInPage :90 - Entering the password 123456
+2021-12-14 23:12:295 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (1f3895b2e02bb183b294fd01a4d758de)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:319 INFO  SignInPage :92 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (1f3895b2e02bb183b294fd01a4d758de)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:496 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (1f3895b2e02bb183b294fd01a4d758de)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:507 INFO  SignInPage :83 - Verifing the error message :null
+2021-12-14 23:12:424 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-14 23:12:878 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (4898ae20c5488185c60c503904910a3e)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-14 23:12:18 INFO  SignInPage :56 - Entering username :abcd@gmail.com
+2021-12-14 23:12:18 INFO  SignInPage :88 - Entering username abcd@gmail.com
+2021-12-14 23:12:117 INFO  SignInPage :62 - Entering the password :123456
+2021-12-14 23:12:117 INFO  SignInPage :90 - Entering the password 123456
+2021-12-14 23:12:900 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (4898ae20c5488185c60c503904910a3e)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:916 INFO  SignInPage :92 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (4898ae20c5488185c60c503904910a3e)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:829 INFO  SignInPage :68 - Clicking on Signin button :[[ChromeDriver: chrome on WINDOWS (4898ae20c5488185c60c503904910a3e)] -> xpath: //button[@id='SubmitLogin']]
+2021-12-14 23:12:841 INFO  SignInPage :83 - Verifing the error message :null
+2021-12-14 23:12:736 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-14 23:12:221 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (07eb2109a475065a717c66d35e86aeed)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-14 23:12:394 INFO  SignInPage :56 - Entering username :prime@gmail.com
+2021-12-14 23:12:506 INFO  SignInPage :62 - Entering the password :Prime123
+2021-12-14 23:12:791 INFO  SignInPage :68 - Clicking on Signin button :Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
+2021-12-14 23:12:866 INFO  SignInPage :99 - Verifying Signout link :[[ChromeDriver: chrome on WINDOWS (07eb2109a475065a717c66d35e86aeed)] -> xpath: //a[@title='Log me out']]

@@ -1,6 +1,6 @@
 Feature: I should navigate and add products on the women page
 
-  @smoke
+  @smoke @regression
   Scenario Outline: I should add product to the cart successfully
     Given I am on Homepage
     And I click on 'WOMEN' tab

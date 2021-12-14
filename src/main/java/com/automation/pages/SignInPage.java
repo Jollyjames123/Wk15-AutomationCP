@@ -35,7 +35,7 @@ public class SignInPage extends Utility {
     public void verifyAuthMessage() {
         //Reporter.log("Verifying the message" + authenticationText.toString()+ "<br>");
         pmVerifyElements(authenticationText, "AUTHENTICATION", "Page is not displayed correctly");
-        log.info("Verifying the message" + authenticationText.toString());
+        log.info("Verifying the message :" + authenticationText.toString());
     }
 
     public void enterEmail(String emailAddress) {
@@ -47,25 +47,25 @@ public class SignInPage extends Utility {
     public void clickOnCreateAcc() {
         //Reporter.log("Clicking on create account" + createAccountLink.toString() + "<br>");
         pmClickOnElement(createAccountLink);
-        log.info("Clicking on create account" + createAccountLink.toString());
+        log.info("Clicking on create account :" + createAccountLink.toString());
     }
 
     public void enterUsername(String username) {
         //Reporter.log("Entering username" + emailFieldLink.toString() + "<br>");
         pmSendTextToElement(emailFieldLink, username);
-        log.info("Entering username " + username);
+        log.info("Entering username :" + username);
     }
 
     public void enterPassword(String password) {
         //Reporter.log("Entering the password " + passwordFieldLink.toString() + "<br>");
         pmSendTextToElement(passwordFieldLink, password);
-        log.info("Entering the password " + password);
+        log.info("Entering the password :" + password);
     }
 
     public void clickOnSigninButton() {
         //Reporter.log("Clicking on Signin button : " + signInTab.toString() + "<br>");
         pmClickOnElement(signInTab);
-        log.info("Clicking on Signin button : " + signInTab.toString());
+        log.info("Clicking on Signin button :" + signInTab.toString());
     }
 
     public void verifyErrorMessage() {
@@ -80,7 +80,7 @@ public class SignInPage extends Utility {
         } else if (errorMessage == "Invalid email address.") {
             pmVerifyElements(errorMessageLink, errorMessage, "Message is not displaed correctly");
         }
-        log.info("Verifing the error message : " + errorMessage);
+        log.info("Verifing the error message :" + errorMessage);
     }
 
     public void loginToApplication(String username, String password) {
@@ -89,23 +89,26 @@ public class SignInPage extends Utility {
         enterPassword(password);
         log.info("Entering the password " + password);
         clickOnSigninButton();
-        log.info("Clicking on Signin button : " + signInTab.toString());
+        log.info("Clicking on Signin button :" + signInTab.toString());
         //verifyErrorMessage(errorMessage);
     }
-    public void verifySignOutLink(){
+
+    public void verifySignOutLink() {
         //Reporter.log("Verifying Signout link : " + signOutLink.toString() + "<br>");
         pmVerifyElements(signOutLink, "Sign out", "SignOut Link is not displayed ");
-        log.info("Verifying Signout link : " + signOutLink.toString());
+        log.info("Verifying Signout link :" + signOutLink.toString());
     }
-    public void clickOnSignOut(){
+
+    public void clickOnSignOut() {
         //Reporter.log("Clicking on SignOut : " + signOutLink.toString() + "<br>");
         pmClickOnElement(signOutLink);
-        log.info("Clicking on SignOut : " + signOutLink.toString());
+        log.info("Clicking on SignOut :" + signOutLink.toString());
     }
-    public void verifySignInLink(){
+
+    public void verifySignInLink() {
         //Reporter.log("Verifying SignIn link : " + signInTab.toString() + "<br>");
         pmVerifyElements(signInTab, "Sign in", "SignOut Link is not displayed ");
-        log.info("Verifying SignIn link : " + signInTab.toString());
+        log.info("Verifying SignIn link :" + signInTab.toString());
     }
 
 }
