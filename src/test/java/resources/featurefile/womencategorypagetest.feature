@@ -1,7 +1,14 @@
-Feature: I should navigate and add products on the women page
+Feature: Verify page navigation and add products in the cart on the women page
 
   @smoke @regression
-  Scenario Outline: I should add product to the cart successfully
+  Scenario: I should navigate to women category page successfully
+    Given I am on Homepage
+    And I click on 'WOMEN' tab
+    And verify 'WOMEN' text on the page
+    Then I should be able to navigate to women category page successfully
+
+  @sanity @regression
+  Scenario Outline: I should be able to add product to the cart successfully
     Given I am on Homepage
     And I click on 'WOMEN' tab
     And click on the product name "<product>"

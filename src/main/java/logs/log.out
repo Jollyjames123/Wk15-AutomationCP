@@ -250,3 +250,23 @@
 2021-12-14 23:12:506 INFO  SignInPage :62 - Entering the password :Prime123
 2021-12-14 23:12:791 INFO  SignInPage :68 - Clicking on Signin button :Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='SubmitLogin']'
 2021-12-14 23:12:866 INFO  SignInPage :99 - Verifying Signout link :[[ChromeDriver: chrome on WINDOWS (07eb2109a475065a717c66d35e86aeed)] -> xpath: //a[@title='Log me out']]
+2021-12-15 06:12:483 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-15 06:12:27 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-15 06:12:184 INFO  SignInPage :44 - Entering the email : gTWnRGO7uZ@gmail.com
+2021-12-15 06:12:318 INFO  SignInPage :50 - Clicking on create account :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //button[@id='SubmitCreate']]
+2021-12-15 06:12:144 INFO  CreateAccountPage :47 - Entering firstname :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='customer_firstname']]
+2021-12-15 06:12:280 INFO  CreateAccountPage :50 - Entering lastname :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='customer_lastname']]
+2021-12-15 06:12:402 INFO  CreateAccountPage :53 - Entering password :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='passwd']]
+2021-12-15 06:12:610 INFO  CreateAccountPage :56 - Entering address :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='address1']]
+2021-12-15 06:12:754 INFO  CreateAccountPage :59 - Entering city name :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='city']]
+2021-12-15 06:12:962 INFO  CreateAccountPage :62 - Selecting the state :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //select[@id='id_state']]
+2021-12-15 06:12:106 INFO  CreateAccountPage :65 - Entering postalcode :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='postcode']]
+2021-12-15 06:12:274 INFO  CreateAccountPage :68 - Entering contact number :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //input[@id='phone_mobile']]
+2021-12-15 06:12:81 INFO  CreateAccountPage :73 - Clicking on register link :Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='submitAccount']'
+2021-12-15 06:12:176 INFO  CreateAccountPage :78 - Verifying the message :[[ChromeDriver: chrome on WINDOWS (8b888b4a4acd940532faaafd5fa21601)] -> xpath: //h1[contains(text(),'My account')]]
+2021-12-15 06:12:155 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-15 06:12:562 INFO  HomePage :30 - Clicking on SignIn :[[ChromeDriver: chrome on WINDOWS (094e209ed86844253f9c97cad2d2d31b)] -> xpath: //a[contains(text(),'Sign in')]]
+2021-12-15 06:12:656 INFO  SignInPage :38 - Verifying the message :[[ChromeDriver: chrome on WINDOWS (094e209ed86844253f9c97cad2d2d31b)] -> xpath: //h1[contains(text(),'Authentication')]]
+2021-12-15 06:12:545 INFO  ManageDriver :31 - launching Chrome Browser
+2021-12-15 06:12:193 INFO  HomePage :35 - Clicking on WOMEN tab :[[ChromeDriver: chrome on WINDOWS (1e01348fd93e82bc735f0e488f7b8e73)] -> xpath: //header/div[3]/div[1]/div[1]/div[6]/ul[1]/li[1]]
+2021-12-15 06:12:240 INFO  WomenCategoryPage :23 - Verifying WOMEN text :[[ChromeDriver: chrome on WINDOWS (1e01348fd93e82bc735f0e488f7b8e73)] -> xpath: //h2[contains(text(),'Women')]]

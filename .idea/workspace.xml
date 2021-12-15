@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ce09a1-3143-4814-82ed-ee2e5a5252fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="74ce09a1-3143-4814-82ed-ee2e5a5252fa" name="Changes" comment="AuomationCP-VF updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/pages/CreateAccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/CreateAccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/pages/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/pages/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/automation/pages/WomenCategoryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/automation/pages/WomenCategoryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logs/log.out" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logs/log.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/RegressionTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/RegressionTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/SanityTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/SanityTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/SmokeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/SmokeTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/steps/WomenCategoryPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/automation/cucumber/steps/WomenCategoryPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/resources/featurefile/womencategorypagetest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/featurefile/womencategorypagetest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wk14-automation-CP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,7 +57,7 @@
       <recent name="com.automation.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SanityTestRunner">
+  <component name="RunManager" selected="JUnit.SmokeTestRunner">
     <configuration name="Feature: createaccountpagetest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/featurefile/createaccountpagetest.feature" />
@@ -150,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SanityTestRunner" />
         <item itemvalue="JUnit.SmokeTestRunner" />
+        <item itemvalue="JUnit.SanityTestRunner" />
         <item itemvalue="JUnit.TestRunner (1)" />
         <item itemvalue="Cucumber Java.Feature: createaccountpagetest" />
         <item itemvalue="JUnit.TestRunner" />
@@ -167,6 +156,14 @@
       <option name="presentableId" value="Default" />
       <updated>1639177873770</updated>
     </task>
+    <task id="LOCAL-00001" summary="AuomationCP-VF updated">
+      <created>1639526060209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639526060209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +176,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AuomationCP-VF updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="AuomationCP-VF updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

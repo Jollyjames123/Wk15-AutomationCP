@@ -2,6 +2,7 @@ package com.automation.cucumber.steps;
 
 import com.automation.pages.HomePage;
 import com.automation.pages.ProductPage;
+import com.automation.pages.WomenCategoryPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
@@ -48,5 +49,14 @@ new ProductPage().selectColour(colour);
 
     @Then("^the products should be added to cart successfully$")
     public void theProductsShouldBeAddedToCartSuccessfully() {
+    }
+
+    @And("^verify 'WOMEN' text on the page$")
+    public void verifyWOMENTextOnThePage() {
+        new WomenCategoryPage().verifyWomenText();
+    }
+
+    @Then("^I should be able to navigate to women category page successfully$")
+    public void iShouldBeAbleToNavigateToWomenCategoryPageSuccessfully() {
     }
 }
